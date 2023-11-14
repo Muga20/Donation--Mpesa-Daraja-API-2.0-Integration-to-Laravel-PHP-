@@ -1,10 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\MpesaController;
-
-
 
 
 Route::get('/' ,[PaymentController::class, 'index'])->name('index');
